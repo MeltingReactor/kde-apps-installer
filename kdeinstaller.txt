@@ -5,6 +5,7 @@ echo "Installing basic plasma components..."
 
 # Install basic plasma components
 sudo pacman -S plasma-meta
+sudo pacman -S sddm-kcm
 
 # Install default KDE Plasma apps
 sudo pacman -S --needed dolphin dolphin-plugins ark gwenview okular spectacle kate filelight konsole kcalc kwalletmanager kio-extras ffmpegthumbs kdegraphics-thumbnailers qt6-imageformats kimageformats kdeconnect elisa partitionmanager kcalc kwallet libreoffice kmail kolourpaint flatpak kwrite firefox kaddressbook kmouth kleopatra kcharselect kfind filelight korganizer qrca kamoso neochat krfb krdc akregator khelpcenter kmahjongg kmines
